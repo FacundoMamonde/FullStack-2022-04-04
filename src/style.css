@@ -1,0 +1,152 @@
+/* ------ BODY ------- */
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: auto;
+  width: 98%;
+  max-width: 1000px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* ------ TITULO ------- */
+
+h1,
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: rgb(31, 31, 31);
+}
+
+header > h1 {
+  color: white;
+  font-size: 35px;
+}
+
+h1 + h2 {
+  color: rgb(76, 103, 192);
+  font-size: 20px;
+}
+
+h3 {
+  color: white;
+}
+
+/* ------ CONTENTENEDOR ------- */
+
+#content {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+#ejercicio {
+  width: 50%;
+  background-color: rgb(196, 196, 196);
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#ejemplo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(221, 221, 221);
+  text-align: left;
+}
+
+/* ------ BOTON SIGUIENTE ------- */
+
+#siguiente {
+  text-align: center;
+  width: 100%;
+  background-color: rgb(99, 1, 190);
+  margin: 0px;
+  padding: 20px;
+}
+
+#siguiente a {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+#siguiente a:hover {
+  color: rgb(125, 252, 252);
+  text-shadow: 1px 1px 2px black;
+}
+
+/* ------ FOOTER ------- */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(59, 59, 59);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+footer p {
+  color: rgb(136, 136, 136);
+}
+
+/* ------ EJERCICIO 1 ------- */
+
+#ejercicio p,
+#ejercicio li {
+  padding-right: 30px;
+  padding-left: 30px;
+  list-style-position: inside;
+}
+
+#ejemplo button {
+  margin-bottom: 12px;
+  width: 150px;
+  height: 60px;
+  text-decoration: none;
+  background-color: rgb(31, 128, 255);
+  border: 2px solid #00000000;
+  transition-duration: 0.3s;
+  border-radius: 6px;
+  color: white;
+}
+
+#ejemplo button:hover {
+  background-color: rgb(80, 156, 255);
+  cursor: pointer;
+}
+
+#ejemplo button:active {
+  background-color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: red;
+}
+
+.spanverde {
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ------ EJERCICIO 2 ------- */
+
+/* ------ EJERCICIO 3 ------- */
